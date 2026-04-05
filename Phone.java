@@ -1,21 +1,36 @@
 class Phone{
 
-String colour;
-String brand;
-String phoneName;
-int price;
+ static String name="redmi";
+ static String brand="redmi";
+ static int price=2000;
 
-public Phone(){}
-
- public Phone(String colour,String brand){
-	 this.colour=colour;
-	 this.brand=brand;
-	 this.phoneName=phoneName;
- }
-
- public void getPhonedetails(){
-System.out.println(" colour:"+ colour);
-System.out.println(" brand:"+ brand);
- }
+public static  void display(){
+System.out.println("name:"+name);
 }
- 
+
+
+public static void display1(int price){
+System.out.println("brand:"+brand);
+
+
+}
+public static int displayPrice(){
+System.out.println("price:"+price);
+return price;
+
+}
+
+public static  int displayPrice1(int price){
+	
+System.out.println("price:"+price);
+return price;
+
+}
+
+
+
+
+
+
+
+}

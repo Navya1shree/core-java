@@ -1,8 +1,23 @@
 class PhoneRunner{
+	
 
-  public static void main(String []args){
+public static void main(String[]args){
 
-   Phone redmi=new Phone("red","redmi"); 
-   redmi.getPhonedetails();
-  }
+ 
+ Phone.display();
+ Phone.display1(2000);
+ Phone.displayPrice();
+ Phone.displayPrice1(2000);
+
+
+
+
+
+}
+
+
+
+
+
+
 }
