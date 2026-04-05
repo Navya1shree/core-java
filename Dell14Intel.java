@@ -1,6 +1,0 @@
-class Dell14Intel{
-	
-	
-
-
-}
